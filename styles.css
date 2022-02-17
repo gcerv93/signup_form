@@ -65,7 +65,6 @@ html, body {
 .image {
   height: 100%;
   width: 40%;
-  background-color: blue;
   position: relative;
 }
 
@@ -94,6 +93,24 @@ html, body {
 .odin img {
   width: 15%;
   height: 125px;
+}
+
+.img-src-box {
+  display: flex;
+  width: 100%;
+  position: absolute;
+  bottom: 10px;
+  justify-content: center;
+}
+
+.img-src-text {
+  font-size: 0.8rem;
+  color: white;
+  font-family: var(--system-font-family);
+}
+
+.img-src-text a {
+  color: white;
 }
 
 .right {
