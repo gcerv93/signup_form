@@ -201,3 +201,8 @@ form input {
   width: 15rem;
   border-radius: 0.3rem;
 }
+
+.focus {
+  border: 0.1rem solid blue;
+  box-shadow: 2px 2px 3px lightgrey;
+}
