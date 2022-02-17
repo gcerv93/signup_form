@@ -128,3 +128,11 @@ p:last-child {
   border-radius: 8px;
   font-family: var(--system-font-family);
 }
+
+.bottom-text {
+  padding-left: 40px;
+}
+
+.bottom-text a {
+  text-decoration: none;
+}
