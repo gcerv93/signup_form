@@ -82,14 +82,13 @@ html, body {
   width: 60%;
   background-color: whitesmoke;
   font-family: var(--system-font-family);
-  letter-spacing: 0.5px;
   font-weight: 600;
 }
 
 .top-text {
   padding-left: 40px;
   margin-top: 200px;
-  font-size: 22px;
+  font-size: 1.3rem;
   width: 80%;
   line-height: 30px;
 }
@@ -113,6 +112,19 @@ p:last-child {
 }
 
 .form-box h1 {
-  font-size: 22px;
+  font-size: 1.3rem;
   padding-top: 20px;
+}
+
+.right button {
+  margin-left: 40px;
+  margin-top: 35px;
+  width: 225px;
+  padding: 12px 25px;
+  background-color: #596D48;
+  font-weight: 700;
+  color: white;
+  font-size: 1rem;
+  border-radius: 8px;
+  font-family: var(--system-font-family);
 }
