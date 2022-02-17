@@ -1,0 +1,1 @@
+I will be building a sign-up form for The Odin Project using the HTML and CSS.
