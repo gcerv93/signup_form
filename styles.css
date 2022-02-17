@@ -49,6 +49,7 @@ table {
 
 html, body {
   height: 100%;
+  --system-font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .main {
@@ -79,15 +80,18 @@ html, body {
 
 .right {
   width: 63%;
+  background-color: whitesmoke;
+  font-family: var(--system-font-family);
+  letter-spacing: 0.5px;
+  font-weight: 600;
 }
 
 .top-text {
   padding-left: 40px;
   margin-top: 200px;
   font-size: 22px;
-  width: 70%;
-  font-weight: bold;
-  font-family: sans-serif;
+  width: 80%;
+  line-height: 30px;
 }
 
 .italic {
@@ -96,4 +100,17 @@ html, body {
 
 p:last-child {
   margin-top: 35px;
+}
+
+.form {
+  width: 100%;
+  height: 300px;
+  background-color: white;
+  margin-top: 25px;
+  padding-left: 40px;
+}
+
+.form h1 {
+  font-size: 22px;
+  padding-top: 20px;
 }
